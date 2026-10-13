@@ -1,8 +1,22 @@
 # MacOS 15 OC EFI for Legion R9000P 2021H (5800H + 3060 Laptop)
 
-Verified driver 1.15.0 on OS 15.8.1
+## Verification
 
-Some tips:
+|     | Component        | Model       |
+| --- | ---------------- | ----------- |
+| ✅  | NVIDIA Driver    | 1.15.0      |
+| ✅  | OS               | 15.8.1      |
+| ✅  | CPU              | 5800H       |
+| ✅  | GPU              | 3060 Laptop |
+| ✅  | SSD              | SN730       |
+| ✅  | WIFI / Bluetooth | AX210       |
+| ✅  | Audio            | ALC287      |
+
+## Tips
+
+**ax210 bluetooth**
+
+Make sure `bluetoothInternalControllerInfo` and `bluetoothExternalDongleFailed` related settings exist like the `config.plist` in this repo.
 
 **OS install**
 
@@ -13,14 +27,8 @@ Some tips:
 **In OS**
 
 - **DO NOT USE DEFAULT WALLPAPER** to avoid glitch / black screen / screen flicker
+
+## Refs
+
 - wifi: [AirportItlwm.kext](https://github.com/laobamac/itlwm/)
 - [bluetooth](https://www.tonymacx86.com/threads/intel-bluetooth-ax210-and-macos-15-3-2-sequoia.331670/)
-
-**My specs**
-
-| Component | Model       |
-| --------- | ----------- |
-| CPU       | 5800H       |
-| GPU       | 3060 Laptop |
-| SSD       | SN730       |
-| WIFI      | AX210       |
