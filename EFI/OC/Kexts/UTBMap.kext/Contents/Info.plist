@@ -31,6 +31,75 @@
 			<key>IOPCIPrimaryMatch</key>
 			<string>0x16391022</string>
 			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GP17@8,1/IOPP/XHC0@0,3</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>port-count</key>
+				<data>
+				BgAAAA==
+				</data>
+				<key>ports</key>
+				<dict>
+					<key>HS02</key>
+					<dict>
+						<key>#comment</key>
+						<string>USB2.1 Hub</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						AgAAAA==
+						</data>
+					</dict>
+					<key>HS04</key>
+					<dict>
+						<key>#comment</key>
+						<string>ITE Device(8910)</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						BAAAAA==
+						</data>
+					</dict>
+					<key>SS01</key>
+					<dict>
+						<key>#comment</key>
+						<string></string>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>port</key>
+						<data>
+						BQAAAA==
+						</data>
+					</dict>
+					<key>SS02</key>
+					<dict>
+						<key>#comment</key>
+						<string>USB3.2 Hub</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<key>Controller-1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.dhinakg.USBToolBox.kext</string>
+			<key>IOClass</key>
+			<string>USBToolBox</string>
+			<key>IOMatchCategory</key>
+			<string>USBToolBox</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x16391022</string>
+			<key>IOPathMatch</key>
 			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GP17@8,1/IOPP/XHC1@0,4</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
@@ -73,86 +142,6 @@
 						<key>port</key>
 						<data>
 						BQAAAA==
-						</data>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<key>Controller-1</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.dhinakg.USBToolBox.kext</string>
-			<key>IOClass</key>
-			<string>USBToolBox</string>
-			<key>IOMatchCategory</key>
-			<string>USBToolBox</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0x16391022</string>
-			<key>IOPathMatch</key>
-			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GP17@8,1/IOPP/XHC0@0,3</string>
-			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				BgAAAA==
-				</data>
-				<key>ports</key>
-				<dict>
-					<key>HS02</key>
-					<dict>
-						<key>#comment</key>
-						<string>USB2.1 Hub</string>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
-					</dict>
-					<key>HS03</key>
-					<dict>
-						<key>#comment</key>
-						<string>Integrated Camera</string>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>
-						AwAAAA==
-						</data>
-					</dict>
-					<key>HS04</key>
-					<dict>
-						<key>#comment</key>
-						<string>ITE Device(8910)</string>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>
-						BAAAAA==
-						</data>
-					</dict>
-					<key>SS01</key>
-					<dict>
-						<key>#comment</key>
-						<string></string>
-						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>port</key>
-						<data>
-						BQAAAA==
-						</data>
-					</dict>
-					<key>SS02</key>
-					<dict>
-						<key>#comment</key>
-						<string>USB3.2 Hub</string>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>
-						BgAAAA==
 						</data>
 					</dict>
 				</dict>

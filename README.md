@@ -15,7 +15,6 @@ Some tips:
 - Turn to dGPU only mode after finishing the manual install steps in [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver)
 - Following [usbtoolbox/tool](https://github.com/usbtoolbox/tool) 's guide to replace `UTBMap.kext` before OS install
 - **DO NOT USE DEFAULT WALLPAPER**
-- wifi: requires [heliport](https://github.com/OpenIntelWireless/HeliPort/releases)
 
 My specs:
 

@@ -1,0 +1,13 @@
+/*
+!/EFI
+!/README.md
+!/.gitignore
+
+# macos shits
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# nullmoth backups
+*.nullmoth*
