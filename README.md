@@ -5,7 +5,7 @@
 >
 > Known issues:
 >
-> - unusable functions: wifi, bluetooth, ~~audio~~
+> - unusable functions: bluetooth
 
 Verified driver 1.15.0 on OS 15.8.1
 
@@ -14,7 +14,8 @@ Some tips:
 - Using hybird mode during OS install
 - Turn to dGPU only mode after finishing the manual install steps in [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver)
 - Following [usbtoolbox/tool](https://github.com/usbtoolbox/tool) 's guide to replace `UTBMap.kext` before OS install
-- **Do not use default wallpaper**
+- **DO NOT USE DEFAULT WALLPAPER**
+- wifi: requires [heliport](https://github.com/OpenIntelWireless/HeliPort/releases)
 
 My specs:
 
