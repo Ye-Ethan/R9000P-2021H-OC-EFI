@@ -1,22 +1,25 @@
 # MacOS 15 OC EFI for Legion R9000P 2021H (5800H + 3060 Laptop)
 
 > [!WARNING]
+>
 > - Replace the SMBIOS using [GenSMBIOS](https://github.com/corpnewt/gensmbios)
 > - **DO NOT USE DEFAULT WALLPAPER** to avoid glitch / black screen / screen flicker (HEIC decoding bug)
 >
->   Change to any normal image like builtin's pure color.
+>   Builtin's pure color is just fine.
 
 ## Verification
 
-|     | Component        | Model       |
-| --- | ---------------- | ----------- |
-| ✅  | NVIDIA Driver    | 1.15.0      |
-| ✅  | OS               | 15.8.1      |
-| ✅  | CPU              | 5800H       |
-| ✅  | GPU              | 3060 Laptop |
-| ✅  | SSD              | SN730       |
-| ✅  | WIFI / Bluetooth | AX210       |
-| ✅  | Audio            | ALC287      |
+|     | Component            | Model               |
+| --- | -------------------- | ------------------- |
+| ✅  | NVIDIA Driver        | 1.15.0              |
+| ✅  | OS                   | 15.8.1              |
+| ✅  | internal BOE monitor | 2560x1600@165hz     |
+| ✅  | external monitor     | 2560x1440@60hz@hdmi |
+| ✅  | CPU                  | 5800H               |
+| ✅  | GPU                  | 3060 Laptop         |
+| ✅  | SSD                  | SN730               |
+| ✅  | WIFI / Bluetooth     | AX210               |
+| ✅  | Audio                | ALC287              |
 
 ## Tips
 
