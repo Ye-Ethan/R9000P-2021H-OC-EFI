@@ -27,9 +27,11 @@ Make sure `bluetoothInternalControllerInfo` and `bluetoothExternalDongleFailed` 
 - Turn to dGPU only mode after finishing the manual install steps in [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver)
 - Following [usbtoolbox/tool](https://github.com/usbtoolbox/tool) 's guide to replace `UTBMap.kext` before OS install
 
-**In OS**
+**Tune**
 
-- **DO NOT USE DEFAULT WALLPAPER** to avoid glitch / black screen / screen flicker
+- **DO NOT USE DEFAULT WALLPAPER** to avoid glitch / black screen / screen flicker (HEIC decoding bug)
+
+  Change to any normal image like builtin's pure color.
 
 ## Refs
 
