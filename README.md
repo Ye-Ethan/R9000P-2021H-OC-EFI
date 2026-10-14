@@ -1,5 +1,8 @@
 # MacOS 15 OC EFI for Legion R9000P 2021H (5800H + 3060 Laptop)
 
+> [!WARNING]
+> Replace the SMBIOS using [GenSMBIOS](https://github.com/corpnewt/gensmbios)
+
 ## Verification
 
 |     | Component        | Model       |
