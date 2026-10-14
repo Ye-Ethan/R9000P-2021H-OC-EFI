@@ -320,7 +320,7 @@
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
 			<key>ResizeAppleGpuBars</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -1945,6 +1945,28 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>OpenShell.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>OpenShell:UEFIShell:Shell</string>
+				<key>FullNvramAccess</key>
+				<false/>
+				<key>Name</key>
+				<string>OpenShell.efi</string>
+				<key>Path</key>
+				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
 				<string>NullMoth: remove the NVIDIA driver at the next start</string>
@@ -1971,7 +1993,7 @@
 				<key>Comment</key>
 				<string>NullMoth: start macOS once without the NVIDIA driver</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
@@ -1984,28 +2006,6 @@
 				<false/>
 				<key>TextMode</key>
 				<true/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>OpenShell.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>OpenShell:UEFIShell:Shell</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>OpenShell.efi</string>
-				<key>Path</key>
-				<string>OpenShell.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -2025,18 +2025,18 @@
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
-				<key>bluetoothExternalDongleFailed</key>
-				<data>AA==</data>
-				<key>bluetoothInternalControllerInfo</key>
-				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>#INFO (prev-lang:kbd)</key>
 				<string>en:252 (ABC), set 656e3a323532</string>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
+				<key>bluetoothExternalDongleFailed</key>
+				<data>AA==</data>
+				<key>bluetoothInternalControllerInfo</key>
+				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
-				<string>-v itlwm_he=1 keepsyms=1 debug=0x100 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0</string>
+				<string>revpatch=sbvmm  itlwm_he=1 keepsyms=1 debug=0x100 amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth</string>
 				<key>csr-active-config</key>
 				<data>QwoAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -2409,7 +2409,7 @@
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>ResizeGpuBars</key>
-			<integer>12</integer>
+			<integer>-1</integer>
 			<key>ResizeUsePciRbIo</key>
 			<false/>
 			<key>ShimRetainProtocol</key>
