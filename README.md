@@ -1,7 +1,10 @@
 # MacOS 15 OC EFI for Legion R9000P 2021H (5800H + 3060 Laptop)
 
 > [!WARNING]
-> Replace the SMBIOS using [GenSMBIOS](https://github.com/corpnewt/gensmbios)
+> - Replace the SMBIOS using [GenSMBIOS](https://github.com/corpnewt/gensmbios)
+> - **DO NOT USE DEFAULT WALLPAPER** to avoid glitch / black screen / screen flicker (HEIC decoding bug)
+>
+>   Change to any normal image like builtin's pure color.
 
 ## Verification
 
@@ -26,12 +29,6 @@ Make sure `bluetoothInternalControllerInfo` and `bluetoothExternalDongleFailed` 
 - Using hybird mode during OS install
 - Turn to dGPU only mode after finishing the manual install steps in [nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver)
 - Following [usbtoolbox/tool](https://github.com/usbtoolbox/tool) 's guide to replace `UTBMap.kext` before OS install
-
-**Tune**
-
-- **DO NOT USE DEFAULT WALLPAPER** to avoid glitch / black screen / screen flicker (HEIC decoding bug)
-
-  Change to any normal image like builtin's pure color.
 
 ## Refs
 
