@@ -1,18 +1,20 @@
-# MacOS 15 OC EFI for Legion R9000P 2021H (5800H + 3060 Laptop)
+# MacOS 26 OC EFI for Legion R9000P 2021H (5800H + 3060 Laptop)
+
+> [!CAUTION]
+>
+> - Tahoe with driver 2.0.0 is a little choppy (but less buggy?) than Sequoia with driver 1.15.0 for now.
 
 > [!WARNING]
 >
 > - Replace the SMBIOS using [GenSMBIOS](https://github.com/corpnewt/gensmbios)
-> - **DO NOT USE DEFAULT WALLPAPER** to avoid glitch / black screen / screen flicker (HEIC decoding bug)
->
->   Builtin's pure color is just fine.
+> - ~~**DO NOT USE DEFAULT WALLPAPER** to avoid glitch / black screen / screen flicker (HEIC decoding bug)~~
 
 ## Verification
 
 |     | Component            | Model               |
 | --- | -------------------- | ------------------- |
-| ✅  | NVIDIA Driver        | 1.15.0              |
-| ✅  | OS                   | 15.8.1              |
+| ✅  | NVIDIA Driver        | 2.0.0               |
+| ✅  | OS                   | 26.7.1              |
 | ✅  | internal BOE monitor | 2560x1600@165hz     |
 | ✅  | external monitor     | 2560x1440@60hz@hdmi |
 | ✅  | CPU                  | 5800H               |
@@ -23,10 +25,6 @@
 
 ## Tips
 
-**ax210 bluetooth**
-
-Make sure `bluetoothInternalControllerInfo` and `bluetoothExternalDongleFailed` related settings exist like the `config.plist` in this repo.
-
 **OS install**
 
 - Using hybird mode during OS install
@@ -35,5 +33,5 @@ Make sure `bluetoothInternalControllerInfo` and `bluetoothExternalDongleFailed` 
 
 ## Refs
 
-- wifi: [AirportItlwm.kext](https://github.com/laobamac/itlwm/)
-- [bluetooth](https://www.tonymacx86.com/threads/intel-bluetooth-ax210-and-macos-15-3-2-sequoia.331670/)
+- [wifi](https://github.com/laobamac/itlwm/)
+- [bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/505#issuecomment-3370000263)
