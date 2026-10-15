@@ -35,3 +35,4 @@
 
 - [wifi](https://github.com/laobamac/itlwm/)
 - [bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/505#issuecomment-3370000263)
+- [audio](https://github.com/laobamac/SimpleHDA)
