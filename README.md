@@ -1,10 +1,10 @@
 # MacOS 26 OC EFI for Legion R9000P 2021H (5800H + 3060 Laptop)
 
-> [!CAUTION]
->
-> - Tahoe with driver 2.0.0 is a little choppy (but less buggy?) than Sequoia with driver 1.15.0 for now.
-
 > [!WARNING]
+>
+> - ~~Tahoe with driver 2.0.0 is a little choppy (but less buggy?) than Sequoia with driver 1.15.0 for now.~~
+>
+>   Frame drops are considerably mitigated in 2.0.4
 >
 > - Replace the SMBIOS using [GenSMBIOS](https://github.com/corpnewt/gensmbios)
 > - ~~**DO NOT USE DEFAULT WALLPAPER** to avoid glitch / black screen / screen flicker (HEIC decoding bug)~~
@@ -13,12 +13,13 @@
 
 |     | Component            | Model               |
 | --- | -------------------- | ------------------- |
-| ✅  | NVIDIA Driver        | 2.0.0               |
+| ✅  | NVIDIA Driver        | 2.0.4               |
 | ✅  | OS                   | 26.7.1              |
 | ✅  | internal BOE monitor | 2560x1600@165hz     |
 | ✅  | external monitor     | 2560x1440@60hz@hdmi |
 | ✅  | CPU                  | 5800H               |
-| ✅  | GPU                  | 3060 Laptop         |
+| ✅  | dGPU                 | 3060 Laptop         |
+| ❌  | iGPU                 | Vega 8              |
 | ✅  | SSD                  | SN730               |
 | ✅  | WIFI / Bluetooth     | AX210               |
 | ✅  | Audio                | ALC287              |
