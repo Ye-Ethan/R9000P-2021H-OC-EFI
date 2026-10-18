@@ -1,19 +1,17 @@
 # MacOS 26 OC EFI for Legion R9000P 2021H (5800H + 3060 Laptop)
 
+> [!TIP]
+> The [nred](https://github.com/aquanjsw/R9000P-2021H-OC-EFI/tree/nred) branch can be used as a fallback EFI for init setup/debug as it need no extra setup within OS but provide a relatively smoother experience **in hybrid mode**.
+
 > [!WARNING]
 >
-> - ~~Tahoe with driver 2.0.0 is a little choppy (but less buggy?) than Sequoia with driver 1.15.0 for now.~~
->
->   Frame drops are considerably mitigated in 2.0.4
->
 > - Replace the SMBIOS using [GenSMBIOS](https://github.com/corpnewt/gensmbios)
-> - ~~**DO NOT USE DEFAULT WALLPAPER** to avoid glitch / black screen / screen flicker (HEIC decoding bug)~~
 
 ## Verification
 
 |     | Component            | Model               |
 | --- | -------------------- | ------------------- |
-| ✅  | NVIDIA Driver        | 2.0.4               |
+| ✅  | NVIDIA Driver        | 2.3.5               |
 | ✅  | OS                   | 26.7.1              |
 | ✅  | internal BOE monitor | 2560x1600@165hz     |
 | ✅  | external monitor     | 2560x1440@60hz@hdmi |
@@ -23,6 +21,7 @@
 | ✅  | SSD                  | SN730               |
 | ✅  | WIFI / Bluetooth     | AX210               |
 | ✅  | Audio                | ALC287              |
+| ✅  | Trackpad             | -             |
 
 ## Tips
 
@@ -34,6 +33,7 @@
 
 ## Refs
 
+- [nvidia driver](https://github.com/nullmoth/nvidia-macos-driver)
 - [wifi](https://github.com/laobamac/itlwm/)
 - [bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/505#issuecomment-3370000263)
 - [audio](https://github.com/laobamac/SimpleHDA)
