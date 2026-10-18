@@ -8,6 +8,17 @@
 >
 > - Replace the SMBIOS using [GenSMBIOS](https://github.com/corpnewt/gensmbios)
 
+## Usage
+
+- If you want an one-time boot to bypass display issues during nullmoth driver testing:
+
+  1. Backup your current EFI first
+  2. Switch to this EFI
+  3. Switch to hybrid mode
+  4. Choose "NullMoth: start macOS once without the NVIDIA driver" in the OC menu
+
+- If you want use this permanently, just make sure the nullmoth driver is uninstalled.
+
 ## Verification
 
 |     | Component            | Model               |
@@ -21,6 +32,7 @@
 | ✅  | SSD                  | SN730               |
 | ✅  | WIFI / Bluetooth     | AX210               |
 | ✅  | Audio                | ALC287              |
+| ✅  | Trackpad             | -                   |
 
 ## Tips
 
@@ -30,6 +42,8 @@
 
 ## Refs
 
+- [dgpu](https://github.com/nullmoth/nvidia-macos-driver)
+- [igpu](https://github.com/ChefKissInc/NootedRed)
 - [wifi](https://github.com/laobamac/itlwm/)
 - [bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/505#issuecomment-3370000263)
 - [audio](https://github.com/laobamac/SimpleHDA)
